@@ -211,6 +211,7 @@ func NewFromViper(
 		authType,
 		sflags.MustGetBool(cmd, FlagInsecure),
 		sflags.MustGetBool(cmd, FlagPlaintext),
+		"", // New sixth parameter (JWT audience or similar)
 	)
 
 	mode := SubstreamsModeProduction
