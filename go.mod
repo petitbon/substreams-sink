@@ -1,4 +1,4 @@
-module github.com/streamingfast/substreams-sink
+module github.com/petitbon/substreams-sink
 
 go 1.22
 
